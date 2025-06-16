@@ -9,10 +9,7 @@ This document provides an overview and instructions for using ARE (short for Aus
  ARE is a online HPC portal that provides web-platform access to NCI's HPCD resources, such a file management, shell access to the backend HPC system, HPC job management, and access to certain web-enabled applications such as Jupyter Notebooks, RStudio.
 
 * How to access ARE?
-    To access ARE, you need to have an NCI account. If you do not have one, please refer to the NCI documentation on how to create an account. Once you have an account, you can access ARE by visiting the following URL:
-
-    .. code-block:: text
-        https://are.nci.org.au
+    To access ARE, you need to have an NCI account. If you do not have one, please refer to the NCI documentation on how to create an account. Once you have an account, you can access ARE by visiting the following URL <https://are.nci.org.au>`_.
 
     You will be prompted to log in using your NCI credentials. **Note:** The Username is the NCI account name not your email address; the password is the same as your NCI account password.
 
