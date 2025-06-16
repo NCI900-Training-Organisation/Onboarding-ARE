@@ -27,7 +27,7 @@ This document provides an overview and instructions for using ARE (short for Aus
         :width: 600px
         :align: center
 
-    As the dashboard image above shows, you can access different services through the ARE portal including:
+    As the dashboard image above shows, you can access different services through ARE portal including:
 
     - **Jupyter Notebooks**: A web-based interactive computing environment where you can access Gadi file systems, and python programming.
 
@@ -58,7 +58,7 @@ To use Jupyter Notebooks in ARE is simple. After logging in to ARE, click on the
 
  - **Compute Size**: Amount of CPU/Memory resources available to your jupyter session
 
- - **Project**: Project to submit gadi job under; requires an SU allocation. For training events, we typically use  **vp91**. 
+ - **Project**: Project to submit gadi job under; requires an SU allocation. For training events, we typically use project **vp91**. 
 
  - **Storage**: The storage space accessible to your Jupyter Notebook session. Default if **/scratch/vp91**.
 
@@ -68,8 +68,7 @@ To use Jupyter Notebooks in ARE is simple. After logging in to ARE, click on the
  
  - **Modules**: The software modules that you need to load such as a particular version of Python.
 
- - **Python or Conda virtual environment base**:  Some of our trainings materials are delieved using tailored Python 
- virtual environments. In those cases, your instructor will provide you with the path to the virtual environment.
+ - **Python or Conda virtual environment base**: Some of our trainings materials are delivered by using tailored Python virtual environments. In those cases, your instructor will provide you with the path to the virtual environment.
 
 
 Once you have specified the parameters, click on the **Launch** button to start your Jupyter Notebook session. 
@@ -97,7 +96,7 @@ Notice that the Gadi file system is mounted and accessible in the left panel.
 
 * Common Issues
 
-    - **Bad request**: This error is often caused by issues with cookies or cache. To resolve it, open another tab and log in again, or try using incognito mode.
+    - **Bad request**: This error is often caused by issues with cookies or cache. To resolve it, close the current tab, open another one and log in again, or try using incognito mode.
 
     - **Not a Member of vp91**: If you only have been granted access to vp91, you need to wait for 20 minutes or so until your access is updated in the system.
 ``
