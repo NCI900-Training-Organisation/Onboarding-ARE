@@ -21,9 +21,13 @@ This document provides an overview and instructions for using ARE (short for Aus
         :align: center
 
     As the dashboard image above shows, you can access different services through the ARE portal including:
+
     - **Jupyter Notebooks**: A web-based interactive computing environment where you can access Gadi file systems, and python programming.
+
     - **RStudio**: A web-based integrated development environment (IDE) for R programming.
+
     - **Virtual Desktop**: A web-based mate desktop environment that allows you to access a virtual machine with a graphical user interface (GUI). It's useful for graphical applications.
+
     - **Gadi Terminal**: A web-based terminal that provides shell access to the Gadi HPC system. You can use it to run commands, manage files, and submit jobs.
 
 
@@ -40,17 +44,25 @@ To use Jupyter Notebooks in ARE is simple. After logging in to ARE, click on the
         :align: center
 
  The basic parameters needed are shown in the image above, which are:
+
  - **Walltime**: The maximum time duration for your Jupyter Notebook session. 
+
  - **Queue**: The queue to which your Jupyter Notebook session will be submitted (For details of different types of queues available on Gadi; See https://opus.nci.org.au/x/ZIQeDg). For training events, we typically use the **normal** queue. **Note:** The field is free-text, so you can type in the queue name.
+
  - **Compute Size**: Amount of CPU/Memory resources available to your jupyter session
+
  - **Project**: Project to submit gadi job under; requires an SU allocation. For training events, we typically use  **vp91**. 
+
  - **Storage**: The storage space accessible to your Jupyter Notebook session. Default if **/scratch/vp91**.
 
  In some training sessions, we may need to specify additional parameters. 
  They are provided in the **advanced options**. 
  In those events, usually we need to specify **Modules** and **Python or Conda virtual environment base**. 
+ 
  - **Modules**: The software modules that you need to load such as a particular version of Python.
- - **Python or Conda virtual environment base**:  Some of our trainings materials are delieved using tailored Python virtual environments. In those cases, your instructor will provide you with the path to the virtual environment.
+
+ - **Python or Conda virtual environment base**:  Some of our trainings materials are delieved using tailored Python 
+ virtual environments. In those cases, your instructor will provide you with the path to the virtual environment.
 
 
 Once you have specified the parameters, click on the **Launch** button to start your Jupyter Notebook session. 
@@ -77,6 +89,8 @@ Once you click on the **Open** button, it will open a new tab in your web browse
 Notice that the Gadi file system is mounted and accessible in the left panel.
 
 * Common Issues
+
     - **Bad request**: This error is often caused by issues with cookies or cache. To resolve it, open another tab and log in again, or try using incognito mode.
+    
     - **Not a Member of vp91**: If you only have been granted access to vp91, you need to wait for 20 minutes or so until your access is updated in the system.
 ``
