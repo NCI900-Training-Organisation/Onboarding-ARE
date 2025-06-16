@@ -19,7 +19,7 @@ This document provides an overview and instructions for using ARE (short for Aus
 * How to use ARE?
     After logging in to ARE, you will see a web platform with various options.
 
-    .. image:: ../../figures/ARE_login.png
+    .. image:: ./figures/ARE_login.png
         :width: 600px
         :align: center
 
@@ -38,7 +38,7 @@ This document provides an overview and instructions for using ARE (short for Aus
 * How to use ARE Jupyter Notebooks?
 To use Jupyter Notebooks in ARE is simple. After logging in to ARE, click on the **Jupyter Notebooks** option in the dashboard. This will direct us to the next page where you can specify the resources you want to use for your Jupyter Notebook session.
 
-    .. image:: ../../figures/ARE_param.png
+    .. image:: ./figures/ARE_param.png
         :width: 600px
         :align: center
 
@@ -60,7 +60,7 @@ Once you have specified the parameters, click on the **Launch** button to start 
 In the backend, this will parse your parameters and convert them into a batch job script to submit to Gadi.
 Launching the job will also redirect to the page **My Interactive Sessions** where you can see the status of your Jupyter Notebook session.
 
-    .. image:: ../../figures/ARE_launching.png
+    .. image:: ./figures/ARE_launching.png
         :width: 600px
         :align: center
 
@@ -68,12 +68,12 @@ Depending on the size of the job and the status of Gadi. You might need to wait 
 Once your Jupyter Notebook session is ready, you will see the status change to **Running**.
 You can then click on the **Open** button to access your Jupyter Notebook session.
 
-    .. image:: ../../figures/ARE_running.png
+    .. image:: ./figures/ARE_running.png
         :width: 600px
         :align: center 
 
 Once you click on the **Open** button, it will open a new tab in your web browser with the Jupyter Notebook interface.
-    .. image:: ../../figures/ARE_web.png
+    .. image:: ./figures/ARE_web.png
         :width: 600px
         :align: center
 
