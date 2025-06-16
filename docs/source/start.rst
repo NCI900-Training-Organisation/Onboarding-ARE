@@ -6,10 +6,17 @@ Getting Started
 This document provides an overview and instructions for using ARE (short for Australian Research Environment) for NCI training events. 
 
 * What is ARE?
- ARE is a online HPC portal that provides web-platform access to NCI's HPCD resources, such a file management, shell access to the backend HPC system, HPC job management, and access to certain web-enabled applications such as Jupyter Notebooks, RStudio.
+ ARE is an online HPC portal that provides web-platform access to NCI's HPCD resources, such a file management, shell access to the backend HPC system, HPC job management, and access to certain web-enabled applications such as Jupyter Notebooks, RStudio.
 
 * How to access ARE?
-    To access ARE, you need to have an NCI account. If you do not have one, please refer to the NCI documentation on how to create an account. Once you have an account, you can access ARE by visiting the following URL <https://are.nci.org.au>`_.
+    To access ARE, you need to have an NCI account. If you do not have one, please refer to the NCI documentation on how to create an account. Once you have an account, you can access ARE by visiting the following URL:
+    
+    .. admonition:: Note
+        :class: note
+
+         https://are.nci.org.au
+
+    
 
     You will be prompted to log in using your NCI credentials. **Note:** The Username is the NCI account name not your email address; the password is the same as your NCI account password.
 
@@ -91,6 +98,6 @@ Notice that the Gadi file system is mounted and accessible in the left panel.
 * Common Issues
 
     - **Bad request**: This error is often caused by issues with cookies or cache. To resolve it, open another tab and log in again, or try using incognito mode.
-    
+
     - **Not a Member of vp91**: If you only have been granted access to vp91, you need to wait for 20 minutes or so until your access is updated in the system.
 ``
