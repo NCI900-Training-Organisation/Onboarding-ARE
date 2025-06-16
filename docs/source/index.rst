@@ -1,25 +1,15 @@
 Introduction to MPI 
 ===================================
-.. admonition:: Overview
+.. admonition:: Onboarding NCI ARE 
    :class: Overview
 
-    * **Tutorial:** 3 hours
+    * **Tutorial:** 20 mins
 
         **Objectives:**
-            #. Learn what is MPI
-
-**MPI** MPI stands for Message Passing Interface. It is the de-facto standard for parallel programming that enables the program to use large numbder of processors to solve a problem.
-
-
-.. note::
-
-   This project is under active development.
-
-Contents
---------
+            #. Learn how to access and use NCI ARE services
 
 .. toctree::
    
    start
-   tutorial
+   
 
